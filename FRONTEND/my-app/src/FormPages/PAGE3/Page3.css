@@ -1,0 +1,66 @@
+
+
+        .page3 {
+               background: #f5f5f5;
+            font-family: "Noto Sans Devanagari", Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #8b1d1d;
+
+
+
+            width: 39rem;
+            background: #fff;
+            margin: auto;
+            padding: 20px;
+            border: 3px solid #8b1d1d;
+            box-sizing: border-box;
+
+            height: fit-content;
+            min-height: 62rem !important;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .expense-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 18px;
+            font-size: 15px;
+        }
+
+        .label {
+            min-width: fit-content;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .dots {
+            flex: 1;
+            border-bottom: 1px dotted #8b1d1d;
+            height: 1rem;
+            color: #0846AA !important;
+              font-size: 16px !important;
+            font-weight: 550 !important;
+        }
+
+        .blank-lines {
+            margin-top: 30px;
+        }
+
+        .blank-lines .line {
+            border-bottom: 1px dotted #8b1d1d;
+            margin-bottom: 18px;
+        }
+
+        .signature {
+            margin-top: 50px;
+            text-align: right;
+            font-size: 15px;
+            font-weight: bold;
+        }

@@ -1,0 +1,52 @@
+.attach3{
+     
+     margin:0;
+   
+    background:#f2f2f2;
+    font-family:"Noto Sans Devanagari", Arial, sans-serif;
+
+
+     border: 3px solid #8b1d1d;
+     color: #8b1d1d;
+
+     width: 39rem;
+    background:#fff;
+    margin:auto;
+    padding:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+     min-height: 62rem !important;
+    height: fit-content !important;
+}
+
+.attachBox3{
+   
+    height: 60rem;
+}
+
+.dischargeBtn{
+     margin-top: 0.5rem;
+    background-color: #0846AA;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+.dischargeBtn:hover{
+      transition : all 0.5s ease-in-out ;
+    transform: scale(1.15);
+}
+
+.saveBtn{
+    margin-top: 0.5rem;
+    background-color: #0846AA;
+    border-radius: 1rem;
+    margin-left: 26rem;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+.saveBtn:hover{
+    transition : all 0.5s ease-in-out ;
+    transform: scale(1.15);
+} 

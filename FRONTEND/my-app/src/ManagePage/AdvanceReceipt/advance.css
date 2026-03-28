@@ -1,0 +1,171 @@
+/* body{
+  background:#eee;
+} */
+
+/* A4 sheet */
+
+.a4-page{
+  width:210mm;
+  min-height:297mm;
+  background:white;
+  margin:auto;
+  padding:25mm;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  box-sizing:border-box;
+}
+
+.advance-receipt{
+  width:100%;
+  font-size:16px;
+}
+
+/* header */
+
+.topline{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+}
+
+.header{
+  text-align:center;
+  margin-top:10px;
+}
+
+.hospital-name{
+  font-size:26px;
+  font-weight:bold;
+}
+
+.subtitle{
+  font-size:14px;
+}
+
+.bill-title{
+  font-size:20px;
+  font-weight:bold;
+  margin-top:8px;
+  text-decoration:underline;
+}
+
+/* rows */
+
+.row{
+  margin-top:14px;
+  font-size:16px;
+}
+
+/* table */
+
+.advance-table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+}
+
+.advance-table th,
+.advance-table td{
+  border:1px solid black;
+  padding:10px;
+  text-align:center;
+  font-size:16px;
+}
+
+/* lines */
+
+.line{
+  border-bottom:1px solid black;
+  display:inline-block;
+}
+
+.small-line{
+  min-width:120px;
+}
+
+.long-line{
+  min-width:350px;
+}
+
+.full-line{
+  width:80%;
+}
+
+/* signature */
+
+.sign{
+  margin-top:60px;
+  display:flex;
+  justify-content:space-between;
+}
+
+/* print button */
+
+.print-btn{
+  padding:10px 20px;
+  margin-top:2rem;
+  margin-left: 45%;
+  margin-bottom: 1rem;
+  color:black;
+  border:1px solid black;
+  border-radius: 2rem;
+  cursor:pointer;
+}
+
+.print-btn:hover{
+  background-color: rgb(18, 200, 18);
+  color: white;
+  border: none;
+}
+
+/* PRINT SETTINGS */
+
+@page{
+  size:A4;
+  margin:20mm;
+}
+
+@page{
+  size:A4;
+  margin:20mm;
+}
+
+@media print{
+
+  body{
+    background:white;
+    margin:0;
+    padding:0;
+  }
+
+  /* Hide everything */
+  body *{
+    visibility:hidden;
+  }
+
+  /* Show only receipt */
+  .a4-page,
+  .a4-page *{
+    visibility:visible;
+  }
+
+  /* Position receipt properly */
+  .a4-page{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    min-height:auto;
+    margin:0;
+    padding:0;
+    box-shadow:none;
+  }
+
+  .advance-receipt{
+    padding:10mm;
+  }
+
+  .print-btn{
+    display:none;
+  }
+
+}

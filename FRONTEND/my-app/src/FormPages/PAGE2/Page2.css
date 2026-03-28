@@ -1,0 +1,163 @@
+
+
+        .page2 {
+             
+             font-family: "Noto Sans Devanagari", Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+             color: #8b1d1d;
+           
+
+            width: 39rem;
+            background: #fff;
+            margin: auto;
+            padding: 20px;
+             border: 3px solid #8b1d1d;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            min-height: 62rem !important;
+            height: fit-content !important;
+   
+        }
+
+        .header {
+            text-align: center;
+            position: relative;
+        }
+
+        .helpline {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 14px;
+        }
+
+        .hospital-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #8b1d1d;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        hr {
+            margin: 15px 0;
+        }
+
+        .form-row {
+            display: flex;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .form-row span {
+            min-width: 130px;
+        }
+
+        .line {
+           
+            border-bottom: 1px dotted #8b1d1d;
+            
+        }
+
+        .label{
+            font-size: 12px;
+        }
+
+
+        .consentDiv{
+            display: inline-block;
+            border-bottom: 1px dotted #8b1d1d;
+            width: 10rem;
+        }
+
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        .subtitle-red {
+            text-align: center;
+            font-weight: bold;
+            color: #8b1d1d;
+            margin: 5px 0;
+        }
+
+        .consent-text {
+    font-size: 11px;
+    line-height: 1.7;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+       
+        .footer {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        .signature-box {
+            width: 40%;
+        }
+          
+         .signature-line-left {
+            border-bottom: 1px solid #8b1d1d;
+            margin-top: 3rem;
+        }
+        .signature-line-right {
+            border-bottom: 1px solid #8b1d1d;
+            margin-top: 4rem;
+        }
+
+        .note {
+            margin-top: 15px;
+            font-size: 13px;
+            border-top: 1px solid #8b1d1d;
+            padding-top: 8px;
+        }
+
+
+        .fingerCapture{
+               margin-top: 0.5rem;
+    background-color: #0846AA;
+    border-radius: 1rem;
+   
+    margin-bottom: 2rem;
+    color: white;
+    padding: 1rem 2rem !important;
+        }
+
+
+        .fingerCapture:hover{
+    transition : all 0.5s ease-in-out ;
+    transform: scale(1.10);
+}  
+
+.captureDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.webCamDiv{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+        

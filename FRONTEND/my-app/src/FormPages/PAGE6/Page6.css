@@ -1,0 +1,194 @@
+
+
+.page6{
+     margin:0;
+    padding:15px;
+    background:#f2f2f2;
+    font-family:Arial, sans-serif;
+
+
+
+    width:39rem;
+    background:#fff;
+    margin:auto;
+    padding:15px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+    border:2px solid #1f4fa3;
+}
+
+.topline{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+}
+
+.header{
+    text-align:center;
+    margin:10px 0;
+}
+
+.hospital-name6{
+    font-size:20px;
+    font-weight:bold;
+    color:#1f4fa3;
+}
+
+.subtitle{
+    font-size:13px;
+    line-height:1.4;
+}
+
+.bill-title{
+    background:#1f4fa3;
+    color:#fff;
+    padding:6px 20px;
+    display:inline-block;
+    margin:10px 0;
+    font-weight:bold;
+    border-radius:3px;
+}
+
+.row{
+    font-size:13px;
+    margin:6px 0;
+}
+
+.line{
+    display:inline-block;
+    border-bottom:1px dotted #000;
+    width:180px;
+    height:1rem;
+    vertical-align:bottom;
+}
+
+.custom-small-line{
+    padding-left: 5px;
+    width: 7rem;
+}
+.long-line{width:280px;}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+    font-size:13px;
+}
+
+th, td{
+    border:1px solid #000;
+    padding:6px;
+    height:22px;
+}
+
+th{
+    background:#e9eefb;
+    text-align:center;
+}
+
+td{
+    vertical-align:middle;
+}
+
+.center{text-align:center;}
+.right6{text-align:right;}
+
+.footer6{
+    margin-top:15px;
+    font-size:13px;
+}
+
+
+
+
+.sign{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+.single{
+    display: flex;
+    align-items: center;
+}
+.single input{
+    width: fit-content;
+    max-width: 6rem;
+    height: 1.75rem;
+}
+.single label{
+    font-size: .8rem;
+}
+.single h6{
+    min-width: 1.5rem !important;
+    width: 14rem;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.custom{
+    display: flex;
+    align-items: center;
+}
+.customField input{
+   
+    min-width: 10rem !important;
+    max-width: 10rem;
+    height: 1.75rem;
+    display: inline-block;
+
+    
+   
+}
+
+.customField h6{
+    display: inline-block;
+   
+}
+.customField{
+      margin-right: 0.5rem;
+}
+
+
+.custom label{
+    font-size: .8rem;
+   
+}
+
+.custom input{
+     height: 1.75rem;
+    width: 6rem;
+    margin-right: 0.5rem;
+}
+
+.custom h6{
+    display: inline-block;
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+   
+}
+
+.advBtn{
+    margin-top: 0.5rem;
+    background-color: #0846AA;
+    border-radius: 1rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    color: white;
+    padding: 0.35rem 2rem;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.advBtn:hover{
+    transition : all 0.5s ease-in-out ;
+    transform: scale(1.15);
+} 
+
+.dialogBtn{
+  border-radius: 1rem;
+  border: 1px 
+}

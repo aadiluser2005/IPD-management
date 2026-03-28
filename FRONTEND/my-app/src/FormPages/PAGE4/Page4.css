@@ -1,0 +1,159 @@
+
+
+        .page4 {
+              background: #f5f5f5;
+            margin: 0;
+            padding: 15px;
+            font-family: "Noto Sans Devanagari", Arial, sans-serif;
+            color: #8b1d1d;
+
+
+
+            width: 39rem;
+           
+            background: #fff;
+            margin: auto;
+            padding: 15px;
+            border: 3px solid #8b1d1d;
+            box-sizing: border-box;
+
+             height: fit-content;
+            min-height: 62rem !important;
+
+        } 
+
+        /* Header */
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #8b1d1d;
+            padding-bottom: 10px;
+        }
+        .customHeader{
+            display: flex;
+        }
+        .patientPhoto{
+            height: 10rem;
+            width: 8rem;
+            
+            margin-right: 1rem;
+             border-radius: 10px;
+           
+        }
+        .patientPhoto img{
+            border-radius: 10px;
+             height: 10rem;
+            width: 8rem;
+        }
+
+        .customDivs{
+            margin-top: 3.75rem;
+        }
+
+        .hospital-name {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .hospital-sub {
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        .hospital-address {
+            margin-top: 6px;
+            font-size: 13px;
+            background: #8b1d1d;
+            color: #fff;
+            padding: 4px;
+        }
+
+        /* Top fields */
+        .top-fields {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .field-row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .field {
+            flex: 1;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .dots {
+            border-bottom: 1px dotted #8b1d1d;
+            height: fit-content;
+            font-size: 18px !important;
+            padding-left: 0.5rem;
+            min-height: 1rem;
+            
+        }
+
+        /* Title */
+        .consent-title {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .consent-title span {
+            background: #8b1d1d;
+            color: #fff;
+            padding: 6px 18px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Blank writing area */
+        .blank-area {
+            margin-top: 20px;
+        }
+
+        .blank-line {
+            border-bottom: 1px dotted #8b1d1d;
+            margin-bottom: 18px;
+            height: 18px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        .consentImg{
+            background-size: cover !important;
+        }
+
+        /* WebCam */
+
+        .camDiv{
+            margin: 0 auto !important;
+        }
+
+       
+
+            .captureBtn{
+               margin-top: 0.5rem;
+    background-color: #0846AA;
+    border-radius: 1rem;
+    margin-left:5rem;
+   
+    color: white;
+    padding: 1rem 2rem !important;
+        } 
+
+
+        .captureBtn:hover{
+    transition : all 0.5s ease-in-out ;
+    transform: scale(1.10);
+}  

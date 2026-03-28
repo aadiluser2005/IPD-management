@@ -1,0 +1,169 @@
+.inputs{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(21, 195, 21); */
+    padding: 1rem;
+}
+
+.inputs div{
+    margin-inline-start: 1rem;
+}
+
+
+
+.findBtn{
+    background-color: #0846AA;
+   padding:0.5rem 1rem;
+    margin: 0 auto;
+    color: white;
+    margin-left: 45%;
+    border-radius: 1.5rem;
+    transition: all 0.25s ease-in-out;
+}
+.findBtn:hover{
+    opacity: 0.9;
+    scale: 1.12;
+}
+
+
+
+/* Print Media Queries */
+@media print {
+  body *{
+    visibility:hidden;
+  }
+
+  .print-area,
+  .print-area *{
+    visibility:visible;
+  }
+
+  .print-area{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+  }
+
+
+    .inputs {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .page-break {
+        page-break-after: always;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        break-inside: avoid;
+    }
+
+    .page-break:last-child {
+        page-break-after: auto;
+    }
+
+}
+
+
+@page{
+  size: A4;
+  margin: 0;
+}
+
+.page1record {
+    width: 205mm;
+  padding: 15mm;
+  box-sizing: border-box;
+  page-break-after: always;
+ 
+ font-family: "Noto Sans Devanagari", Arial, sans-serif;
+  margin: auto;
+padding: 20px;
+color: #8b1d1d;
+ padding: 20px;
+border: 3px solid #8b1d1d;
+           
+}
+
+.page2record , .page3record , .page4record, .page5record , .attach1record, .attach2record , .attach3record{
+  padding: 15mm;
+  box-sizing: border-box;
+  page-break-after: always;
+ font-family: "Noto Sans Devanagari", Arial, sans-serif;
+  margin: auto;
+padding: 20px;
+color: #8b1d1d;
+ border: 3px solid #8b1d1d;
+width: 205mm;
+ min-height: fit-content;    
+}
+
+.page2record .customHeader{
+     margin-top: 0rem;
+}
+.page2record .footer{
+    margin-top: 0;
+}
+
+
+
+
+.page3record{
+    min-height: 63rem;
+}
+
+.page4record{
+    max-height: 63rem !important;
+}
+
+.page4record .consentImg{
+    height: 35rem !important;
+}
+
+.page5record{
+    min-height: 64rem;
+}
+
+
+.page6record{
+  padding: 15mm;
+  box-sizing: border-box;
+  page-break-after: always;
+ font-family: "Noto Sans Devanagari", Arial, sans-serif;
+  margin: auto;
+padding: 20px;
+ border: 3px solid #8b1d1d;
+width: 205mm;
+ min-height: fit-content;
+}
+
+.print-record-btn{
+    margin-left: 47%; 
+    border: 1px solid black;
+     border-radius: 1.5rem;
+    padding: 0.5rem 3rem;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.print-record-btn:hover{
+   background-color: rgb(18, 200, 18);
+  color: white;
+  border: none;
+}
+
+
+
+
+
+

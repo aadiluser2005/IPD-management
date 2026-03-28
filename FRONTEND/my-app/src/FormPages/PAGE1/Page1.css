@@ -1,0 +1,203 @@
+/* PAGE 1 form styling */
+
+        .page1 {
+             background: #f5f5f5;
+            font-family: "Noto Sans Devanagari", Arial, sans-serif;
+            margin: auto;
+            padding: 20px;
+            color: #8b1d1d;
+           
+
+
+            width: 39rem;
+          
+            height: 62rem !important;
+            background: #fff;
+           
+            padding: 20px;
+            border: 3px solid #8b1d1d;
+            box-sizing: border-box;
+             padding-bottom: 5px !important;
+        }
+
+        /* HEADER */
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .case-title {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .caseSheet{
+           
+
+           
+            background-color: #8b1d1d;
+            margin: 0.5rem auto;
+            width: fit-content;
+            color: white;
+            padding: 0.25rem 1rem ;
+        }
+
+        .case-title h1 {
+            margin: 0;
+            font-size: 35px;
+            letter-spacing: 0.5rem;
+            font-weight: 600;
+        }
+
+        .case-title h2 {
+            margin: 0.5rem 0;
+            font-size: 35px;
+            letter-spacing: 0.25rem;
+            font-weight: 600;
+        }
+
+        .case-title p {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .divider {
+            border-top: 2px solid #8b1d1d;
+            margin: 12px 0;
+        }
+
+        /* SMALL BOXES */
+        .box-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .box {
+            width: 30%;
+            border: 2px solid #8b1d1d;
+            padding: 6px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        /* FORM ROWS */
+        .form-row {
+            display: flex;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .label {
+             font-size: 17px;
+            font-weight: bold;
+            width: fit-content !important;
+            
+        }
+
+        .line {
+            color: #0846AA;
+            font-size: 16px !important;
+            font-weight: 550 !important;
+            border-bottom: 1px dotted #8b1d1d;
+            padding-bottom: 1.25rem !important;
+        }
+
+        .half {
+            width: 50%;
+            display: flex;
+        }
+
+        /* RIGHT ESTIMATE BOX */
+       
+        .top{
+            
+            height: 20rem;
+            width: 100% !important;
+        }
+        
+          .bottom{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left {
+         
+          height: 17rem;
+          width: 70%;
+        }
+
+      
+
+        .right {
+           
+            border: 3px solid #8b1d1d;
+            text-align: center;
+           
+            height: 21rem;
+            width: 30%;
+           
+        }
+
+        .right .estimateBox {
+          
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+
+
+
+
+
+
+
+
+/* PAGE 1 styling */
+.leftCol{
+    border: 2px solid rgb(202, 198, 198);
+     border-radius: 10px;
+     margin-left: 1rem;
+}
+.heading{
+   
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+.heading h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+
+.nextbtn{
+    margin-top: 0.5rem;
+    background-color: #0846AA;
+    border-radius: 1rem;
+    margin-left: 33rem;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+.nextbtn:hover{
+    transition : all 0.5s ease-in-out ;
+    transform: scale(1.15);
+}  
+
+
+.totBtn{
+    margin-top: 0.5rem;
+    background-color: #0846AA;
+    border-radius: 1rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+.totBtn:hover{
+    transition : all 0.5s ease-in-out ;
+    transform: scale(1.15);
+} 

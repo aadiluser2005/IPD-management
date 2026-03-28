@@ -1,0 +1,125 @@
+
+
+.page5{
+     
+     margin:0;
+    padding:20px;
+    background:#f2f2f2;
+    font-family:"Noto Sans Devanagari", Arial, sans-serif;
+
+
+     border: 3px solid #8b1d1d;
+     color: #8b1d1d;
+
+     width: 39rem;
+    background:#fff;
+    margin:auto;
+    padding:30px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+     min-height: 62rem !important;
+    height: fit-content !important;
+}
+
+.center5{text-align:center;}
+.red5{color:#8b1d1d;font-weight:bold;}
+
+.line5{
+    display:inline-block;
+    border-bottom:1px dotted #8b1d1d;
+    width:10rem;
+    height: fit-content;
+    min-height:1rem;
+    vertical-align:bottom;
+    min-width: 3rem;
+     font-size: 16px !important;
+    padding-left: 0.5rem !important;
+    color: #0846AA !important;
+    font-size: 16px !important;
+    font-weight: 550 !important;
+    
+}
+
+.shortLine5{
+  display:inline-block;
+    border-bottom:1px dotted #8b1d1d;
+    width:7rem;
+    height:18px;
+    vertical-align:bottom;
+  
+    min-width: 3rem;
+    color: #0846AA !important;
+    font-size: 16px !important;
+    font-weight: 550 !important;
+    margin-left: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.medLine5{
+     display:inline-block;
+    border-bottom:1px dotted #8b1d1d;
+    width:7rem;
+    height:18px;
+    vertical-align:bottom;
+    min-width: 3rem;
+    color: #0846AA !important;
+    font-size: 16px !important;
+    font-weight: 550 !important;
+    margin-left: 0.5rem;
+   padding-bottom: 1.5rem;
+}
+
+.horizontalLine5{
+    margin: 6rem 0;
+    
+    border-bottom: 3px solid #8b1d1d;
+
+}
+
+.long-line5{
+    width:12rem;
+}
+.full-line5{
+    width:100%;
+}
+
+.section5{margin-top:25px;}
+
+.header5{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo5{
+    font-size:26px;
+    font-weight:bold;
+    color:#8b1d1d;
+}
+
+.subtitle5{
+    font-size:13px;
+    line-height:1.4;
+}
+
+.box-title5{
+    display:inline-block;
+    padding:6px 20px;
+    background:#8b1d1d;
+    color:#fff;
+    border-radius:4px;
+    margin:15px 0;
+    font-weight:bold;
+}
+
+.row5{
+    font-size:14px;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+}
+
+.footer5{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+    font-size:14px;
+}
