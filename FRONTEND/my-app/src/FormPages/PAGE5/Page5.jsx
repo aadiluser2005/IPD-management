@@ -2,7 +2,7 @@ import React ,{useEffect}from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input.jsx";
 import { Label } from "@/components/ui/label.jsx";
-import "./Page5.css"
+import "./page5.css"
 import Page5form from './Page5form';
 import usePatientStore from '@/PatientStore/patientStore';
 import { toast } from 'sonner';
