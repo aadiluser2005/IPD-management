@@ -195,7 +195,7 @@ useEffect(() => {
 
 
       
-             <Button className={"fingerCapture"} variant="outline">Capture fingerprint</Button>
+             {/* <Button className={"fingerCapture"} variant="outline">Capture fingerprint</Button> */}
                  
     
               </div>

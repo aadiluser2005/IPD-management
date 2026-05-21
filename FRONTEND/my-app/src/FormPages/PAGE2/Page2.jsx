@@ -230,7 +230,7 @@ useEffect(() => {
            <div className='captureDiv'>
              
        <Button onClick={() => updateField("webcamOpen",true)} className={"fingerCapture"} variant="outline">Capture Image</Button>
-      <Button className={"fingerCapture"} variant="outline">Capture fingerprint</Button>
+      {/* <Button className={"fingerCapture"} variant="outline">Capture fingerprint</Button> */}
            </div>
             
 

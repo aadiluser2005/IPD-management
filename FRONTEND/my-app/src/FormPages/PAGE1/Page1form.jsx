@@ -45,7 +45,7 @@ const dateConversion=(date)=>{
   
     <div class="top-bar">
         <div>Year – {patientInfo.fileYear} / No. <span>{patientInfo.fileNumber}</span></div>
-        <div>📞 09506881992</div>
+        <div>📞 723xxxxxx4</div>
     </div>
 
     
